@@ -1,9 +1,21 @@
-<!doctype html>
-<html>
-  <head>
-    <title>JavaScript for Kids</title>
-  </head>
-  <body>
-    <script src="word-guess.js"></script>
-  </body>
-</html>
+<!DOCTYPE html>
+    <html lang="en-us">
+        <head>
+            <meta charset="UTF-8">
+            <title> Guess Game</title>
+            <link rel="shortcut icon" href="game1.png" type="image/x-icon" />
+            <link rel="stylesheet" href="style.css">
+        </head>
+    <body>
+        <div class="container">
+            <h1>Welcome to the Challenge</h1>
+            <div class="player">
+               <form class="form">
+                   <input type="password" class="guess" maxlength="100" id="guessword"  placeholder="Enter your secret word.."/> 
+                   <button type="submit" class="Button" onclick="startGame()" id="checkbtn">Guess</button>
+               </form>  
+            </div>
+        </div>
+        <script src="word-guess.js"></script>
+    </body>
+    </html>

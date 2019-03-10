@@ -1,0 +1,50 @@
+body {
+    background-image: url(BlackMarble.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+}
+.container 
+{
+    margin: auto;
+    text-align: center;
+}
+h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color:whitesmoke;
+  font-weight: 300;
+}
+.form 
+{
+  margin: 20px auto 0;
+}
+input[type="password"] 
+{
+    
+    padding: 5px;
+    font-size: 25px;
+    margin-bottom: 80px;
+    margin-right: 10px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    color: gray;
+}
+
+.Button
+{
+     border: none;
+     border-radius: 6px;
+     font-size: 20px;
+     padding: 8px 15px;
+     cursor: pointer;
+     background:#3399cc;
+     color: white;
+     transition: .3s;
+     margin: 10px 0;
+
+ }
+
+              
